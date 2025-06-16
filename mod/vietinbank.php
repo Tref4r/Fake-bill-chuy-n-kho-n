@@ -26,11 +26,14 @@
               <div class="col-sm-9">
                 <select required="" id="bank" name="bank" class="form-control" onchange="chonBank()">
 <?php
+$host = $_SERVER['HTTP_HOST'];
+$scheme = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? "https" : "http";
+$url = $scheme . '://' . $host . '/api/nganhang.php';
 
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => '/api/nganhang.php', // Sửa lại đường dẫn nội bộ
+  CURLOPT_URL => $url,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
@@ -46,10 +49,11 @@ curl_close($curl);
 $data = json_decode($jsonData, true);
 
 $options = '';
-foreach ($data['data'] as $item) {
-    $options .= '<option ant="'.$item['shortName'].'" int="'.$item['code'].'" value="' . $item['name'] . '">' . $item['shortName'] . '</option>';
+if (isset($data['data'])) {
+    foreach ($data['data'] as $item) {
+        $options .= '<option ant="'.$item['shortName'].'" int="'.$item['code'].'" value="' . $item['name'] . '">' . $item['shortName'] . '</option>';
+    }
 }
-
 echo $options;
 ?>
                 </select>
