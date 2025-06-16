@@ -36,7 +36,7 @@
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://trongthao.tech/api/nganhang',
+  CURLOPT_URL => '/api/nganhang.php', // Sửa lại đường dẫn nội bộ
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,

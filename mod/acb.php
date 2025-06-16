@@ -31,12 +31,12 @@
             <label class="col-sm-3 col-form-label" for="thanhdieudeptrai">Tên ngân hàng người nhận</label>
               <div class="col-sm-9">
                 <select required="" id="bank" name="bank" class="form-control" onchange="chonBank()">
-                   <?php
+<?php
 
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'https://trongthao.tech/api/nganhang',
+  CURLOPT_URL => '/api/nganhang.php', // Sửa lại đường dẫn nội bộ
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
