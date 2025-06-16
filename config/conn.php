@@ -7,7 +7,7 @@ function cache() {
  return '?'.bin2hex(random_bytes(3));   
 }
 $changepages = basename($_SERVER['REQUEST_URI'], '.php');
-$title = "4DevX.com - Trang website fake bill chuyển khoản miễn phí";
+$title = "Fake bill của thằng bố mày.com - Trang website fake bill chuyển khoản miễn phí";
 $description = "4DevX.com - Trang chủ fake bill Vietinbank, Mbbank, Momo, vietcombank, v.v.v";
 $keyword = "4DevX.com";
 if ($changepages == 'fake-bill-vietinbank') {
