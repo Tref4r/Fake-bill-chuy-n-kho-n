@@ -1,0 +1,26 @@
+runtime: php81
+
+handlers:
+  - url: /assets
+    static_dir: assets
+
+  - url: /ajax
+    static_dir: ajax
+
+  - url: /api
+    static_dir: api
+
+  - url: /config
+    static_dir: config
+
+  - url: /include
+    static_dir: include
+
+  - url: /mod
+    static_dir: mod
+
+  - url: /resource
+    static_dir: resource
+
+  - url: /.*
+    script: auto
