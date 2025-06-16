@@ -177,7 +177,7 @@
   <footer class="content-footer footer bg-footer-theme">
               <div class="container-xxl">
                 <div class="footer-container d-flex align-items-center justify-content-between py-3 flex-md-row flex-column">
-                  <div class="mb-2 mb-md-0">© 4devx.com-<script>document.write(new Date().getFullYear());</script>
+                  <div class="mb-2 mb-md-0">© Tạ Trần Thanh Tùng.com-<script>document.write(new Date().getFullYear());</script>
                    
                   </div>
                 </div>
@@ -197,8 +197,8 @@
     <div class="tab-pane fade active show" id="navs-pills-top-profile" role="tabpanel">
    
    <p style="text-align: center;"><span style="font-family: helvetica;">&nbsp;<strong style="text-align: center;">Công Cụ Fake Bill Và Số Dư</strong></span></p>
-<p><i><span style="font-family: helvetica;">Website Được Điều Hành Bởi: </span><strong><a href="https://www.facebook.com/h2ndev " rel="noopener" target="_blank"><span style="font-family: helvetica;">H2N.DEV</span></a>&nbsp;</strong>
-</span><span style="font-family: helvetica;">Hosting Giá Rẻ Tại: </span><strong><a href="https://4devx.com" rel="noopener" target="_blank"><span style="font-family: helvetica;">4DevX</span></a>&nbsp;</strong>
+<p><i><span style="font-family: helvetica;">Website Được Điều Hành Bởi: </span><strong><a href="https://www.facebook.com/ta.tran.thanh.tung " rel="noopener" target="_blank"><span style="font-family: helvetica;">TTTTùng</span></a>&nbsp;</strong>
+</span><span style="font-family: helvetica;">Cần trợ giúp thì gọi con vợ này</span><strong><a href="https://www.facebook.com/ta.tran.thanh.tung" rel="noopener" target="_blank"><span style="font-family: helvetica;">TTTTùng</span></a>&nbsp;</strong>
 </span></div>
    
     </div>

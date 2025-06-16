@@ -8,10 +8,10 @@
             <a href="./" class="app-brand-link gap-2">
               <span class="app-brand-logo demo">
                 <span style="color: var(--bs-primary)">
-                  <img alt="" width="50" height="50" src="https://files.catbox.moe/2yy19g.png"/>
+                  <img alt="" width="50" height="50" src="https://scontent-lax3-2.xx.fbcdn.net/v/t39.30808-6/490265448_2684194195107539_4328320787046600447_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=r2KcUWVBEnwQ7kNvwHZnfFQ&_nc_oc=Adkh_xV5JD1gaYVdLyVVYsN3nnbUFEXI6g4flOPZv64PegMtvIJ7r5biOOQQkqVp7T4&_nc_zt=23&_nc_ht=scontent-lax3-2.xx&_nc_gid=WHxum100BuF4Zo3-5PtKsA&oh=00_AfNaoUx62ou_oAJ8hphAFw7FW2qG0svsSB3rc1l2MT7CiA&oe=68563981"/>
                 </span>
               </span>
-              <span class="app-brand-text demo menu-text fw-bold">4DevX</span>
+              <span class="app-brand-text demo menu-text fw-bold">Bố là Tùng đây</span>
             </a>
             <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-xl-none">
               <i class="mdi mdi-close align-middle"></i>
