@@ -19,13 +19,13 @@ RUN a2enmod rewrite
 RUN sed -i 's/80/8080/g' /etc/apache2/ports.conf /etc/apache2/sites-enabled/000-default.conf
 
 # Copy toàn bộ source code vào container
-COPY . /var/www/html/
+COPY build/ /usr/share/nginx/html
 
 # Thiết lập quyền cho thư mục (nếu cần)
-RUN chown -R www-data:www-data /var/www/html
+RUN chown -R www-data:www-data /usr/share/nginx/html
 
 # Thiết lập thư mục làm việc
-WORKDIR /var/www/html
+WORKDIR /usr/share/nginx/html
 
 # Expose port 8080
 EXPOSE 8080
