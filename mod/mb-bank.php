@@ -82,7 +82,7 @@ echo $options;
             <div class="row mb-3">
               <label class="col-sm-3 col-form-label" for="thanhdieudeptrai">STK nhận</label>
               <div class="col-sm-9">
-                <input type="number" id="stk" name="stk" required="" class="form-control" placeholder="Số tài khoản người nhận">
+                <input type="text" id="stk" name="stk" required="" class="form-control" placeholder="Số tài khoản người nhận">
               </div>
             </div>
             <div class="row mb-3">
